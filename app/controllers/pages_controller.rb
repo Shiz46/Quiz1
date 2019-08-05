@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
   def index
-    @page = Page.first
+  @page = Page.first
   end
 end

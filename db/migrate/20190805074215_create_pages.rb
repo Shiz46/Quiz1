@@ -1,6 +1,6 @@
-class CreatePlaces < ActiveRecord::Migration[5.2]
+class CreatePages < ActiveRecord::Migration[5.2]
   def change
-    create_table :places do |t|
+    create_table :pages do |t|
       t.string :joke
       t.string :punch
 
