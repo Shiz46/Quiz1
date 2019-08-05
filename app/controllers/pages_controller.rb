@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
   def index
-  @page = Page.first
+  @page = Page.order("RANDOM()").first
   end
 end
