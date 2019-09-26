@@ -10,15 +10,22 @@
   </head>
 
   <body>
-    <header class="col-12">
+
+    <header class="text-center">
     <div class="headline_color">
       <h1>
       Have a Laugh 
-    </h1>
+      </h1>
+    </div>
+    <div class="col-5">
+      <%= link_to 'Add Your Joke', '#' %>
     </div>
      </header>
 
      <br />
+
+     <br class="clear" />
     <%= yield %>
+
   </body>
 </html>

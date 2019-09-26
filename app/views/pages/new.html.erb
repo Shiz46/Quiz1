@@ -1,0 +1,9 @@
+<h1> Share Your Funny Jokes</h1>
+
+<%= simple_from_for @joke do |f| %>
+  <%= f.input :joke %>
+  <%= f.input :punchline %>
+  <%= f.input :name %>
+  <br />
+  <%= f.button :'Create', class: 'btn btn-danger' %>
+<% end %>
