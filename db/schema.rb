@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2019_09_23_061534) do
   create_table "jokes", force: :cascade do |t|
     t.string "name"
     t.text "joke"
-    t.string "punchline"
+    t.text "punchline"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

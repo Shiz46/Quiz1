@@ -4,6 +4,6 @@ class PagesController < ApplicationController
   end
 
   def new 
-    @joke - Joke.new
+    @joke = Joke.new
   end 
 end
