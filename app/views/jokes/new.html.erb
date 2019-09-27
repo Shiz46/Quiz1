@@ -1,0 +1,10 @@
+<h1>Make Someone Laugh With Your Best Joke</h1>
+
+<%= simple_form_for @joke do |f| %> 
+  <%= f.input :joke %>
+  <%= f.input :punchline %>
+  <%= f.input :name %> 
+
+  <br />
+  <%= f.submit 'Add Your Joke', class: 'btn btn-danger'%>
+<% end %>
